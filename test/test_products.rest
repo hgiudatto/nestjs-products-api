@@ -1,0 +1,15 @@
+### Test Create
+POST http://localhost:3000/product/create
+
+Content-Type: application/json
+{
+    "name": "laptop",
+    "description": "HP Laptop",
+    "imageURL": "https://www.lenovo.com/medias/22tpe15e5n2.png?context=bWFzdGVyfHJvb3R8MjgzMTMxfGltYWdlL3BuZ3xoNmEvaGVjLzE0MTExNzEzODg2MjM4LnBuZ3xlM2I4ZGNiODIzODYxOTc2NTU0NzI4NTFiNWRkMGY4OWRhZTBlNjk1ZGMzZDljOGU2OGQwNmM0YzY1YmVmMDdk",
+    "price": 1000,
+    "createdAt": 
+}
+
+### Test Get
+GET http://localhost:3000/product/
+
